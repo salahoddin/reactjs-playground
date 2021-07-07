@@ -1,0 +1,129 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   push: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\SSA\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath F:\Programming Projects\reactjsbook\jbook
+3 verbose session 86475f3c75ecff76
+4 verbose user-agent lerna/3.22.1/node@v14.15.4+x64 (win32)
+5 silly argv {
+5 silly argv   _: [ 'publish' ],
+5 silly argv   push: false,
+5 silly argv   composed: 'publish',
+5 silly argv   lernaVersion: '3.22.1'
+5 silly argv }
+6 verbose rootPath F:\Programming Projects\reactjsbook\jbook
+7 info current version 3.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch master
+12 silly hasTags
+13 verbose hasTags false
+14 info Assuming all packages changed
+15 verbose updated salah-js-playground
+16 verbose updated @salah-js-playground/local-api
+17 verbose updated @salah-js-playground/local-client
+18 verbose git-describe undefined => "52f3280"
+19 silly git-describe parsed => {"refCount":"1","sha":"52f3280","isDirty":false}
+20 info execute Skipping git push
+21 info execute Skipping releases
+22 silly lifecycle No script for "preversion" in "root", continuing
+23 silly lifecycle No script for "preversion" in "@salah-js-playground/local-client", continuing
+24 silly lifecycle No script for "version" in "@salah-js-playground/local-client", continuing
+25 silly lifecycle No script for "preversion" in "@salah-js-playground/local-api", continuing
+26 silly lifecycle No script for "version" in "@salah-js-playground/local-api", continuing
+27 silly lifecycle No script for "preversion" in "salah-js-playground", continuing
+28 silly lifecycle No script for "version" in "salah-js-playground", continuing
+29 silly lifecycle No script for "version" in "root", continuing
+30 silly gitAdd [
+30 silly gitAdd   'packages/local-client/package.json',
+30 silly gitAdd   'packages/local-client/package-lock.json',
+30 silly gitAdd   'packages/local-api/package.json',
+30 silly gitAdd   'packages/local-api/package-lock.json',
+30 silly gitAdd   'packages/cli/package.json',
+30 silly gitAdd   'packages/cli/package-lock.json',
+30 silly gitAdd   'lerna.json'
+30 silly gitAdd ]
+31 silly gitCommit v4.0.0
+32 verbose git [ 'commit', '-m', 'v4.0.0' ]
+33 silly gitTag v4.0.0
+34 verbose git [ 'tag', 'v4.0.0', '-m', 'v4.0.0' ]
+35 silly lifecycle No script for "postversion" in "salah-js-playground", continuing
+36 silly lifecycle No script for "postversion" in "@salah-js-playground/local-api", continuing
+37 silly lifecycle No script for "postversion" in "@salah-js-playground/local-client", continuing
+38 silly lifecycle No script for "postversion" in "root", continuing
+39 info publish Publishing packages to npm...
+40 info Verifying npm credentials
+41 verbose Retrieving npm user profile
+42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 5369ms
+43 silly npm profile get received {"tfa":false,"name":"dhenabod","email":"dhenabod@protonmail.com","email_verified":true,"created":"2021-07-04T10:50:55.652Z","updated":"2021-07-04T10:50:55.647Z","cidr_whitelist":null}
+44 silly get npm username received {"username":"dhenabod","tfa":false,"name":"dhenabod","email":"dhenabod@protonmail.com","email_verified":true,"created":"2021-07-04T10:50:55.652Z","updated":"2021-07-04T10:50:55.647Z","cidr_whitelist":null}
+45 silly verifyNpmPackageAccess
+46 http fetch GET 200 https://registry.npmjs.org/-/org/dhenabod/package?format=cli 1297ms
+47 info Checking two-factor auth mode
+48 verbose Retrieving npm user profile
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1089ms
+50 silly npm profile get received {"tfa":false,"name":"dhenabod","email":"dhenabod@protonmail.com","email_verified":true,"created":"2021-07-04T10:50:55.652Z","updated":"2021-07-04T10:50:55.647Z","cidr_whitelist":null}
+51 silly 2FA false
+52 warn ENOLICENSE Packages salah-js-playground, @salah-js-playground/local-api, and @salah-js-playground/local-client are missing a license.
+52 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+52 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+53 silly getCurrentSHA
+54 verbose getCurrentSHA cdfb540a732df00ae4c1d57b9e69b6984eba8c9d
+55 silly lifecycle No script for "prepublish" in "root", continuing
+56 silly lifecycle No script for "prepare" in "root", continuing
+57 silly lifecycle No script for "prepublishOnly" in "root", continuing
+58 silly lifecycle No script for "prepack" in "root", continuing
+59 verbose pack-directory packages\local-client
+60 silly lifecycle No script for "prepublish" in "@salah-js-playground/local-client", continuing
+61 silly lifecycle No script for "prepare" in "@salah-js-playground/local-client", continuing
+62 silly lifecycle "prepublishOnly" starting in "@salah-js-playground/local-client"
+63 info lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: @salah-js-playground/local-client@4.0.0
+64 verbose lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: unsafe-perm in lifecycle true
+65 verbose lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: PATH: C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;F:\Programming Projects\reactjsbook\jbook\packages\local-client\node_modules\.bin;C:\Users\SSA\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SSA\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\SSA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Users\SSA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SSA\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+66 verbose lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: CWD: F:\Programming Projects\reactjsbook\jbook\packages\local-client
+67 silly lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: Args: [ '/d /s /c', 'npm run build' ]
+68 silly lifecycle @salah-js-playground/local-client@4.0.0~prepublishOnly: Returned: code: 0  signal: null
+69 silly lifecycle "prepublishOnly" finished in "@salah-js-playground/local-client"
+70 silly lifecycle No script for "prepack" in "@salah-js-playground/local-client", continuing
+71 silly lifecycle No script for "postpack" in "@salah-js-playground/local-client", continuing
+72 verbose packed packages\local-client
+73 verbose pack-directory packages\cli
+74 verbose pack-directory packages\local-api
+75 silly lifecycle No script for "prepublish" in "salah-js-playground", continuing
+76 silly lifecycle No script for "prepublish" in "@salah-js-playground/local-api", continuing
+77 silly lifecycle No script for "prepare" in "salah-js-playground", continuing
+78 silly lifecycle No script for "prepare" in "@salah-js-playground/local-api", continuing
+79 silly lifecycle "prepublishOnly" starting in "salah-js-playground"
+80 info lifecycle salah-js-playground@4.0.0~prepublishOnly: salah-js-playground@4.0.0
+81 silly lifecycle "prepublishOnly" starting in "@salah-js-playground/local-api"
+82 info lifecycle @salah-js-playground/local-api@4.0.0~prepublishOnly: @salah-js-playground/local-api@4.0.0
+83 verbose lifecycle salah-js-playground@4.0.0~prepublishOnly: unsafe-perm in lifecycle true
+84 verbose lifecycle salah-js-playground@4.0.0~prepublishOnly: PATH: C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;F:\Programming Projects\reactjsbook\jbook\packages\cli\node_modules\.bin;C:\Users\SSA\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SSA\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\SSA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Users\SSA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SSA\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+85 verbose lifecycle salah-js-playground@4.0.0~prepublishOnly: CWD: F:\Programming Projects\reactjsbook\jbook\packages\cli
+86 silly lifecycle salah-js-playground@4.0.0~prepublishOnly: Args: [
+86 silly lifecycle   '/d /s /c',
+86 silly lifecycle   'esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\"production\\"'
+86 silly lifecycle ]
+87 silly lifecycle salah-js-playground@4.0.0~prepublishOnly: Returned: code: 0  signal: null
+88 verbose lifecycle @salah-js-playground/local-api@4.0.0~prepublishOnly: unsafe-perm in lifecycle true
+89 verbose lifecycle @salah-js-playground/local-api@4.0.0~prepublishOnly: PATH: C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;F:\Programming Projects\reactjsbook\jbook\packages\local-api\node_modules\.bin;C:\Users\SSA\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SSA\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\SSA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Users\SSA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SSA\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+90 verbose lifecycle @salah-js-playground/local-api@4.0.0~prepublishOnly: CWD: F:\Programming Projects\reactjsbook\jbook\packages\local-api
+91 silly lifecycle @salah-js-playground/local-api@4.0.0~prepublishOnly: Args: [ '/d /s /c', 'tsc' ]
+92 silly lifecycle "prepublishOnly" finished in "salah-js-playground"
+93 silly lifecycle No script for "prepack" in "salah-js-playground", continuing
+94 error ZlibError: zlib: invalid distance code
+94 error     at Unzip.write (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:147:22)
+94 error     at Object.write (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\tar\lib\parse.js:305:58)
+94 error     at Yallist.<anonymous> (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:374:18)
+94 error     at Yallist.forEach (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\yallist\yallist.js:156:8)
+94 error     at ReadStream.emit (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:373:20)
+94 error     at ReadStream.emit (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:154:22)
+94 error     at ReadStream.write (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:163:17)
+94 error     at ReadStream.[_handleChunk] (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:131:19)
+94 error     at ReadStream.[_onread] (C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:109:32)
+94 error     at C:\Users\SSA\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:101:22

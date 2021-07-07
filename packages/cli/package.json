@@ -1,0 +1,30 @@
+{
+	"name": "salah-js-playground",
+	"version": "1.0.1-alpha.0",
+	"description": "",
+	"bin": "dist/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"start": "tsc --watch --preserveWatchOutput",
+		"prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@salah-js-playground/local-client": "^1.0.1-alpha.0"
+	},
+	"devDependencies": {
+		"@salah-js-playground/local-api": "^1.0.1-alpha.0",
+		"@types/node": "^14.14.22",
+		"commander": "^7.0.0",
+		"esbuild": "0.8.26",
+		"typescript": "^4.1.3"
+	},
+	"gitHead": "cdfb540a732df00ae4c1d57b9e69b6984eba8c9d"
+}
